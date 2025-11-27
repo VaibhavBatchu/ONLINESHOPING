@@ -7,7 +7,7 @@ COPY mvnw .
 COPY .mvn/ .mvn
 COPY pom.xml ./
 
-RUN chmod +x mvnw   # << Missing line
+RUN chmod +x mvnw   
 
 COPY src ./src
 
